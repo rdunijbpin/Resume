@@ -6,24 +6,26 @@
   <title>My Resume</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Times New Roman, sans-serif;
       margin: 0;
       padding: 20px;
-      background: linear-gradient(to Top, #a1f6ff, #ffffff);
- }
-@media screen and (max-width: 768px) {
-  /* Styles for screens up to 768px wide (e.g., mobile phones) */
-}
+      background: #DFE3E5;
 
-    h1{margin-top: 0;
+    }
+    h1{margin-top: 0.5;
       text-decoration: ;
 text-shadow: -1px -1px 0 #000;
-font-size: 100px;}
+font-size: 80px;}
 
-h2, h3 {
-      margin-top: 0;
+h2{margin-top: 0;
+	font-size: 30px;
       text-decoration: underline;	
-      color: #05BFDB;}
+      color:;}
+
+h3 {
+      margin-top: 0;
+      text-decoration:;	
+      color:;}
   
     .section {
       margin-bottom: 20px;
@@ -32,8 +34,8 @@ h2, h3 {
     }
     .profile-picture {
       position: absolute; /* Position the picture absolutely */
-      top: 50px; /* Adjust top position as needed */
-      right: 50px; /* Adjust right position as needed */
+      top: 150px; /* Adjust top position as needed */
+      right: 15%; /* Adjust right position as needed */
       width: 310px; /* Adjust width as needed */
       height: 300px; /* Maintain aspect ratio */	
       border-radius: 50%; /* Make the picture circular */
@@ -49,14 +51,18 @@ transform: scale(1.1)}
     }
 
     .right-section {
-      width: 400px; /* Set the width of the section */
-      height: 1000px; /* Set the height of the section */
+      height: 920px; /* Set the height of the section */
       background-color: #006265; /* Set the background color of the section */
       position: absolute; /* Position the section absolutely */
-      top: 120%; /* Align the top of the section with the middle of the viewport */
-      right: 2%; /* Align the right side of the section with the right side of the viewport */
+      top: 128.9%; /* Align the top of the section with the middle of the viewport */
+      right: 10%; /* Align the right side of the section with the right side of the viewport */
       transform: translateY(-50%); /* Center the section vertically */
 	line-height: 2;
+margin: 0 auto; /* Center the container */
+    width: 30%; /* Adjust the width as needed */
+    max-width: 1200px; /* Optional: Limit the maximum width */
+    padding: 20px; /* Optional: Add padding inside the container */
+    box-sizing: border-box;
     }
 .special-head {
   color: #ffffff; /* Set the color of the h2 text */
@@ -124,19 +130,39 @@ transform: scale(1.1);
       text-decoration: none;
       cursor: pointer;
     }
+.container{
+/*width: 900px;*/
+/*height: 900px;*/
+    margin: 2%; /* Center the container */
+    width: 85%; /* Adjust the width as needed */
+    max-width: 1200px; /* Optional: Limit the maximum width */
+    padding: 20px; /* Optional: Add padding inside the container */
+    box-sizing: border-box; /* Ensure padding is included in the width */
 
+}
+
+p,li{font-size: 19px;}
+
+.wrapper {
+    margin: 20px; /* Add margin to create space around the border */
+    padding: 20px; /* Add padding to create space inside the border */
+    border: 5px solid black; /* Add a solid black border */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
   </style>
 </head>
 <body>
+<div class="wrapper">
+<div class="container">
 <img class="profile-picture" src="profilepic1.jpg" alt="Your Picture">
 
   <header>
 <div class="content">
     <h1>Bharat Diwan</h1>
     <h2>Summary</h2>		
-    <p>Results-driven Management student actively seeking employment opportunities to leverage academic knowledge and practical skills in organizational leadership,
- strategic planning, and team collaboration. Proficient in analyzing complex business scenarios, developing innovative solutions. Eager to contribute enthusiasm,
- adaptability, and a strong work ethic to a dynamic professional environment.</p>
+    <p>Results-driven Management student actively seeking employment opportunities to leverage academic<br> 
+       knowledge and practical skills in organizational leadership, strategic planning, and team collaboration.<br>
+      Eager to contribute enthusiasm,adaptability, and a strong work ethic to a dynamic professional environment.</p>
 </div>
   </header>
 <hr>
@@ -157,6 +183,7 @@ transform: scale(1.1);
       <li>MIS Report</li>
 	<li>Fluency in English & Hindi.</li>
 	<li>Problem Solving, Confident, Motivated.</li>
+	<li>Team Player</li>
 </ul>
   </div>
 
@@ -164,12 +191,11 @@ transform: scale(1.1);
     <h2>Education</h2>
     <h3>●Bachelor of Computer Application</h3>
     <p>GOVT. Model Science College, Jabalpur, MP</p>
-	<li>Adaptive, Creative & Learner.</li>
-    <p>Graduated: October 2020</p>
+    <p>August 2017 - October 2020</p>
 
-<h3>●Master's in Business Administration</h3>
+<h3>●Master of Business Administration</h3>
     <p>Global Institute of Engeenring and Management, Jabalpur, MP</p>
-    <p>Graduated: September 2025 (Expected)</p>
+    <p>September 2023 - September 2025 (Expected)</p>
   </div>
 <hr>
   <div class="section">
@@ -178,21 +204,19 @@ transform: scale(1.1);
     <p> ROCK FOR SURE, Gurgaon, Haryana</p>
     <p>Sept 2022 - Sept 2023</p>
     <ul>
-      <li>Building a healthy relationship to customers and assisting them to resolve their queries.</li>
-      <li>Revenue Collection on daily basis to reach the required target.</li>
-      <li>Managing the conversion rate of Sales leads through outbound calling (Hindi and English) and chat process.</li>
-      <li>Managing the MIS report on daily basis to assist the team in decision makings.</li>	
+      <li>Cultivated strong customer relationships and assisted in resolving queries.</li>
+      <li>Achieved daily revenue targets through effective collection strategies.</li>
+      <li>Managed the conversion rate of sales leads through outbound calling and chat processes.</li>
+      <li>Maintained and analysed daily MIS reports to support the team in strategic decision making.</li>	
     </ul>
   <p >Visit <a href="https://www.rockforsure.com" class="a-special">Rock For Sure</a> for more information.</p>
-
-
 <h3>●Supervisor</h3>
     <p> Super Agencies, Jabalpur, MP</p>
     <p>Aug 2021 - Aug 2022</p>
     <ul>
-      <li>Inventory Management.</li>
-      <li>Vehicle delivery management to subdealers or customers.</li>
-      <li>Providing daily work reports to superiors.</li>
+      <li>Oversaw comprehensive inventory management, ensuring accuracy and efficiency in<br> stock control.</li>
+      <li>Coordinate and managed vehicle deliveries to optimize logistics.</li>
+      <li>Prepared detailed daily reports on inventory counts to support data driven decision makings.</li>
     </ul>
   <p>Visit <a href="https://dealers.heromotocorp.com/super-agencies-hero-motocorp-two-wheeler-dealer-north-civil-lines-jabalpur-25191/Map" class="a-special">Super Agencies (Hero MotoCorp)</a> for more information.</p>
 
@@ -202,13 +226,13 @@ transform: scale(1.1);
     <h2>Certifications</h2>
     <ul>
 
-    <li>Swacch Bharat Summer Internship 2018.<br><img src="SummerIntern.jpg" alt="Certificate Thumbnail" class="thumbnail" id="certificate-thumbnail">
+    <li>Swacch Bharat Summer Internship, 2018.<br><img src="Summerintern.jpg" alt="Certificate Thumbnail" class="thumbnail" id="certificate-thumbnail">
 <div class="modal" id="modal">
     <span class="close" id="close">&times;</span>
-    <img src="SummerIntern.jpg" alt="Certificate" class="modal-content" id="certificate-modal">
+    <img src="Summerintern.jpg" alt="Certificate" class="modal-content" id="certificate-modal">
   </div></li>
 
-    <li>National Certificate in Vocational Training for Computer Fundamentals by NCVT (2013-2014).<br><img src="NVCT.jpg" alt="Certificate Thumbnail" class="thumbnail" id="certificate-thumbnail">
+    <li>National Certificate in Vocational Training for Computer Fundamentals, NCVT (2013-2014).<br><img src="NVCT.jpg" alt="Certificate Thumbnail" class="thumbnail" id="certificate-thumbnail">
 <div class="modal" id="modal">
     <span class="close" id="close">&times;</span>
     <img src="NVCT.jpg" alt="Certificate" class="modal-content" id="certificate-modal">
@@ -217,7 +241,8 @@ transform: scale(1.1);
 
 </ul>
 </div>
-
+</div>
+</div>
   <script>
     // Get the modal
     var modal = document.getElementById('modal');
@@ -240,6 +265,5 @@ transform: scale(1.1);
     }
   </script>
 
-<hr class="simple-line">
 </body>
 </html>
